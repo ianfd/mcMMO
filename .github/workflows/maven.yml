@@ -13,6 +13,8 @@ on:
     - 'src/**'
     - 'pom.xml'
     - '.github/workflows/maven.yml'
+    
+  workflow_dispatch:
 
   # Whenever someone submits a new pull request which modified the pom or a source file,
   # we want to ensure it compiles successfully and that all tests will pass.
